@@ -37,18 +37,26 @@ Few example run commands are also provided below.
 
 ###### VSP
 python main.py -s 2000 -w ../inputs/VSP/input1.txt -p 1 -a 1 -o ../outputs/VSP/output1_vsp_first.txt
+
 python main.py -s 2000 -w ../inputs/VSP/input1.txt -p 1 -a 2 -o ../outputs/VSP/output1_vsp_best.txt
+
 python main.py -s 2000 -w ../inputs/VSP/input2.txt -p 1 -a 1 -o ../outputs/VSP/output2_vsp_first.txt
+
 python main.py -s 2000 -w ../inputs/VSP/input2.txt -p 1 -a 2 -o ../outputs/VSP/output2_vsp_best.txt
 
 ###### SEG
 python main.py -s 2000 -w ../inputs/SEG/input1.txt -p 3 -a 1 -o ../outputs/SEG/output1_seg_first.txt
+
 python main.py -s 2000 -w ../inputs/SEG/input1.txt -p 3 -a 2 -o ../outputs/SEG/output1_seg_best.txt
+
 python main.py -s 2000 -w ../inputs/SEG/input2.txt -p 3 -a 1 -o ../outputs/SEG/output2_seg_first.txt
+
 python main.py -s 2000 -w ../inputs/SEG/input2.txt -p 3 -a 2 -o ../outputs/SEG/output2_seg_best.txt
 
 
 ###### PAG
 python main.py -s 2000 -w ../inputs/PAG/input1.txt -p 2 -f 100 -o ../outputs/PAG/output1_pag_100.txt
+
 python main.py -s 2000 -w ../inputs/PAG/input1.txt -p 2 -f 200 -o ../outputs/PAG/output1_pag_200.txt
+
 python main.py -s 2000 -w ../inputs/PAG/input1.txt -p 2 -f 400 -o ../outputs/PAG/output1_pag_400.txt
